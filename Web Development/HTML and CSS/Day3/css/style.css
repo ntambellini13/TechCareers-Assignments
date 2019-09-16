@@ -1,0 +1,122 @@
+/*
+Authors: Owiny Ayorech, Nicolas Tambellini
+Date: June. 24, 2019
+Version: 1.2
+Functionality:
+*/
+
+/*Body Styling*/
+body {
+    font-family: 'Kalam',cursive;    
+}
+
+body, html {
+    height: 100%;
+  }
+
+  .bg {
+    /* The image used */
+    background-image: url("../images/travel/capturing-the-human-heart-TrhLCn1abMU-unsplash.jpg");
+  
+     /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+/*Header Styling*/
+.main-title {
+            font-size:72px;
+            font-weight:700;
+            color:rgb(235, 174, 117);
+            margin-left:13%;
+            padding: 10px;
+            display:inline;
+            vertical-align:middle;
+            text-shadow:
+            -1px -1px 0 #FFF,
+            1px -1px 0 #FFF,
+            -1px 1px 0 #FFF,
+            1px 1px 0 #FFF;
+        } 
+
+.main-logo { 
+    border:3px solid rgb(235, 174, 117);   
+    height:15%;
+    width:15%;
+    margin:0;
+    align:left;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.header {
+    background-color:rgba(26, 30, 54, 0.5);
+    margin:0 auto;
+    padding:10px;
+}
+
+/* Nav-bar Styling*/
+
+nav {
+    margin-bottom:25px;
+}
+
+
+/* Image Slider Styling */
+.img-slider {
+        margin:auto;
+        height:400px;
+        width:800px;
+    }
+
+#carouselExampleCaptions {
+    border:3px solid rgb(235, 174, 117);
+}
+
+/* Footer Styling*/
+.copyright {
+        position:absolute;
+        bottom:0;    
+        color:rgb(109, 4, 165);
+}
+
+/*Contact Styling*/
+ .indent{
+    margin-left:50px; 
+    }
+
+.agency-info {
+    font-size:24px;
+}
+
+.list-group {
+    width:22%;
+}
+
+section.company-info{
+    margin-left:3%;
+    margin-top:5%;
+}
+
+/* Registration Form Styling*/
+.reg-form {
+    border:3px solid rgb(235, 174, 117);
+    padding:10px;
+    width:50%;
+    margin:0 auto;
+    color:rgb(109, 4, 165);
+    font-weight:700;
+}
+
+
+
+
+
+    
+    
+    

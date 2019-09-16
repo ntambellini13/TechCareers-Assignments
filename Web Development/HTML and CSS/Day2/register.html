@@ -1,0 +1,68 @@
+<!--
+Authors: Owiny Ayorech, Nicolas Tambellini
+Date: June. 24, 2019
+Version: 1.2
+Functionality:
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Registration</title>
+    <link rel='stylesheet' href='css\style.css'>
+    <script src="https://kit.fontawesome.com/97d02203ff.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <img class="main-logo" src="images\travel\3d-illustration-land-and-a-group-of-suitcases-to-1412103-640x480-Travel-logo.jpg"></img>  
+            <h1 class="main-title">Welcome To Travel Experts</h1>  
+        </div>
+    </header>
+    <h1 class='title'>Page Under Construction</h1>
+    <!-- Registration Form -->
+    <section>
+        <div class = 'form'>
+            <form class="main-form" method="POST" action="http://localhost/bouncer.php"><!--send to form xy; use POST instead of GET, post takes longer but it encrypts the info (cant see info in url)-->
+                <table>
+                    <tr><!-- User name row -->
+                        <label class='field'>User Name: </label>
+                        <input class="form-label" type="text" name="form-username" placeholder="Enter user name here" required="true"/>
+                    </tr>
+                    <div class="clear"></div>
+
+                    <tr><!-- Password row -->
+                        <label class='field'>Password: </label>    
+                        <input class="form-label" type="password" name="form-password" placeholder="Enter password here" required="true"/>
+                    </tr>
+                    <div class="clear"></div>
+
+                    <tr><!-- Email row -->
+                        <label class='field'>Email: </label>    
+                        <input class="form-label" type="email" name="form-email" placeholder="Enter email here" required="true"/>
+                    </tr><!-- text area row -->       
+                    <div class="clear"></div>
+                    <textarea placeholder="Additional registration information goes here!" name="feedback" cols="76" rows="10"></textarea>
+                    </textarea>
+                    <div class="clear"></div>
+                
+                    <span><!-- Submit buttons -->
+                        <input type="submit" value="Register"/>
+                        <input type="reset" value="Clear All"/>
+                    </span>
+                    <div class="clear"></div>
+                </table> 
+            </form>
+        </div>
+    </section>
+    
+    <!-- Back button and Copyright -->
+    <footer>
+        <p> 
+            <a class="back-home" href = "index.html">Go Back to the HomePage</a>
+            <p class="copyright">Made by Owiny and Nico <i class="far fa-copyright"></i> 2019</p>
+        </p>
+    </footer>
+</body>
+</html>

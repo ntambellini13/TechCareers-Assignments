@@ -1,0 +1,7 @@
+C:\Users\835266\Desktop\BankAccount_Bonus\BankAccount_Bonus\bin\Debug\BankAccount_Bonus.exe.config
+C:\Users\835266\Desktop\BankAccount_Bonus\BankAccount_Bonus\bin\Debug\BankAccount_Bonus.exe
+C:\Users\835266\Desktop\BankAccount_Bonus\BankAccount_Bonus\bin\Debug\BankAccount_Bonus.pdb
+C:\Users\835266\Desktop\BankAccount_Bonus\BankAccount_Bonus\obj\Debug\BankAccount_Bonus.csproj.CoreCompileInputs.cache
+C:\Users\835266\Desktop\BankAccount_Bonus\BankAccount_Bonus\obj\Debug\BankAccount_Bonus.exe
+C:\Users\835266\Desktop\BankAccount_Bonus\BankAccount_Bonus\obj\Debug\BankAccount_Bonus.pdb
+C:\Users\835266\Desktop\BankAccount_Bonus\BankAccount_Bonus\obj\Debug\BankAccount_Bonus.csprojResolveAssemblyReference.cache

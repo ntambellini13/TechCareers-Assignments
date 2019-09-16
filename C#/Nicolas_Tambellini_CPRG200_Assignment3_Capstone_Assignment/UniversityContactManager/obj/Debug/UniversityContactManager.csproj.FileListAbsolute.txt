@@ -1,0 +1,16 @@
+C:\Users\ntamb\OneDrive\Desktop\UniversityContactManager\UniversityContactManager\bin\Debug\UniversityContactManager.exe.config
+C:\Users\ntamb\OneDrive\Desktop\UniversityContactManager\UniversityContactManager\bin\Debug\UniversityContactManager.exe
+C:\Users\ntamb\OneDrive\Desktop\UniversityContactManager\UniversityContactManager\bin\Debug\UniversityContactManager.pdb
+C:\Users\ntamb\OneDrive\Desktop\UniversityContactManager\UniversityContactManager\obj\Debug\UniversityContactManager.csprojAssemblyReference.cache
+C:\Users\ntamb\OneDrive\Desktop\UniversityContactManager\UniversityContactManager\obj\Debug\UniversityContactManager.MainForm.resources
+C:\Users\ntamb\OneDrive\Desktop\UniversityContactManager\UniversityContactManager\obj\Debug\UniversityContactManager.Properties.Resources.resources
+C:\Users\ntamb\OneDrive\Desktop\UniversityContactManager\UniversityContactManager\obj\Debug\UniversityContactManager.csproj.GenerateResource.cache
+C:\Users\ntamb\OneDrive\Desktop\UniversityContactManager\UniversityContactManager\obj\Debug\UniversityContactManager.csproj.CoreCompileInputs.cache
+C:\Users\ntamb\OneDrive\Desktop\UniversityContactManager\UniversityContactManager\obj\Debug\UniversityContactManager.exe
+C:\Users\ntamb\OneDrive\Desktop\UniversityContactManager\UniversityContactManager\obj\Debug\UniversityContactManager.pdb
+C:\Users\ntamb\OneDrive\Desktop\UniversityContactManager\UniversityContactManager\obj\Debug\UniversityContactManager.AddEditStudentForm.resources
+C:\Users\ntamb\OneDrive\Desktop\UniversityContactManager\UniversityContactManager\obj\Debug\UniversityContactManager.AddEditFacultyForm.resources
+C:\Users\ntamb\OneDrive\Desktop\UniversityContactManager\UniversityContactManager\bin\Debug\UniversityUsers.dll
+C:\Users\ntamb\OneDrive\Desktop\UniversityContactManager\UniversityContactManager\bin\Debug\UniversityUsers.pdb
+C:\Users\ntamb\OneDrive\Desktop\UniversityContactManager\UniversityContactManager\obj\Debug\UniversityContactManager.csproj.CopyComplete
+C:\Users\ntamb\OneDrive\Desktop\UniversityContactManager\UniversityContactManager\obj\Debug\UniversityContactManager.SearchFunctionForm.resources

@@ -1,0 +1,268 @@
+/*
+Authors: Owiny Ayorech, Nicolas Tambellini
+Date: July, 10 2019
+Version: 1.12
+*/
+
+
+/* ********************* Body Styling ********************  */
+html,body,main{
+    height: 100%;
+    font-family: 'Kalam',cursive;
+    overflow: auto;
+ }
+ 
+ main{
+    padding-bottom: 120px;
+    padding-left: 1%;
+    padding-right: 1%;
+ }
+ 
+ 
+ 
+ section{
+    display:flex;
+ }
+
+
+ #holder{
+    min-height: 100%;
+    position:relative;
+ }
+
+/* Header Styling */
+.header {
+    background-color:rgba(26, 30, 54, 0.5);
+    margin:0 auto;
+    margin-bottom:5vh;
+    padding:10px;
+    max-width:100vw;
+    position:relative;
+} 
+
+/* Footer Styling */
+footer{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-left: 1%;
+ }
+
+.copyright {
+        position:absolute;
+        width:100%;
+        bottom:0;
+        color:rgb(109, 4, 165);
+ }
+
+
+/* ********************* Title and Navbar ******************** */
+/* Background Image */ 
+.bg {
+    /* The image used */
+    background-image: url("../images/travel/capturing-the-human-heart-TrhLCn1abMU-unsplash.jpg");
+    min-height:100%;
+    max-width:100%;
+    background-size:cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+  }
+
+ /* Title */
+ .main-title {
+            max-width:100vw;
+            font-size:72px;
+            font-size:8.0vw;
+            font-weight:700;
+            color:rgb(235, 174, 117);
+            padding: 10px;
+            display:inline;
+            vertical-align:middle;
+            text-shadow:
+            -1px -1px 0 #FFF,
+            1px -1px 0 #FFF,
+            -1px 1px 0 #FFF,
+            1px 1px 0 #FFF;
+        }
+
+/* Brand Logo */
+ .main-logo {
+    border:3px solid rgb(235, 174, 117);
+    height:15%;
+    width:15%;
+    margin:0;
+    align:left;
+    display:inline-block;
+    vertical-align:middle;
+ }
+ 
+/* Nav-bar Styling */
+ .nav-item.nav-link {
+    vertical-align: bottom;
+ }
+ 
+ 
+ nav {
+    margin-bottom:25px;
+ }
+ 
+ .navbar {
+    display:block;
+ }
+ 
+ .pull-right {
+    float:right;
+ }
+ 
+ a.nav-link {
+    font-size:24px;
+ }
+
+/* moving globe image */
+ #wrapper {
+    position: absolute;
+    top: 82%;
+    left: 0;
+    height: 50px;
+    right: 50px;
+ }
+ #ball {
+    margin-bottom: 50%;
+    height: 50px;
+    width: 50px;
+    border:1px solid rgb(235, 174, 117);
+    background: blue;
+    border-radius: 50px;
+    position: absolute;
+    left: 0;
+    animation: animate 8s linear 0s infinite alternate;
+ }
+ @keyframes animate {
+    from { left: 100%; }
+    to { left: 0; }
+ }
+
+
+/* ********************* Index Page ******************** */
+ /* Image Slider Styling */
+ .img-slider {
+        margin:auto;
+        top:0;
+        left:0;
+        max-width:800px;
+        max-height:400px;
+        object-fit:cover;
+        object-position:center;
+ }
+
+/* Welcome Message with Time of Day Image */
+.welcome {
+   width:40%;
+   margin-left:auto;
+   margin-right:auto;
+   text-align:center;
+   color: rgb(0, 26, 255);
+   font-size:28px;
+   text-shadow:
+            -1px -1px 0 #FFF,
+            1px -1px 0 #FFF,
+            -1px 1px 0 #FFF,
+            1px 1px 0 #FFF;
+}
+
+ #descTable {
+   margin-top:5vh;
+   border:3px solid rgb(235, 174, 117);
+}
+ 
+ 
+/* ********************* Contact Page ******************** */
+ /*Contact Page Styling*/
+ .indent{
+    margin-left:50px;
+    overflow-wrap:break-word;
+    white-space:wrap;
+    }
+ 
+ .agency-info {
+    font-size:24px;
+ }
+
+ .agencies{
+   border:3px solid rgb(235, 174, 117);
+   overflow-wrap:break-word;
+   width:150%;
+ }
+ 
+ section.company-info{
+    margin-left:3%;
+    margin-top:5%;
+ }
+ 
+
+/* ************************  Registration Page  ********************** */
+/* Registration Form Styling */
+ .reg-form {
+    border:3px solid rgb(235, 174, 117);
+    padding:5px;
+    width:50%;
+    margin:0 auto;
+    color:rgb(109, 4, 165);
+    font-weight:700;
+    font-size: 14px;
+ }
+ 
+ .form-control {
+    font-size: 12px;
+ }
+ 
+ .photo {
+    margin-top:5vh; 
+    max-width:800px;
+    max-height:400px;
+    margin-left:5vw;
+    margin-right:5vw;
+    border:3px solid rgb(235, 174, 117);
+    width:38%;
+ }
+ 
+
+
+ .hint{
+   display: inline; 
+   color:red;
+ }
+ 
+ 
+ 
+/* ************************  Link Page  ********************** */
+ /* link page styling */
+ #linkTable {
+   border:3px solid rgb(235, 174, 117);
+   padding:5px;
+   width:50%;
+   margin:0 auto !important;
+   font-weight:700;
+   font-size: 16px;
+   overflow-wrap:break-word;
+ }
+
+ 
+/* ************************  Login Page  ********************** */
+/* New Agent Form Styling */
+
+.login{
+   border:3px solid rgb(235, 174, 117);
+   padding:5px;
+   width:40%;
+   margin:0 auto;
+   color:rgb(109, 4, 165);
+   font-weight:700;
+   font-size: 16px;
+}
+
+/* Logged In and Logged out Message in header */
+p.headertext{
+   color:rgb(235, 174, 117);
+}

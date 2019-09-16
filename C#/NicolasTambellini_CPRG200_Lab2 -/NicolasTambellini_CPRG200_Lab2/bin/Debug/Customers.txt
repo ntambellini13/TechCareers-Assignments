@@ -1,0 +1,9 @@
+613,NPT,R,58.00
+1313,Anica,R,6.00
+3781900,Tawico,C,127.50
+666,Devil's Lair,C,60.00
+1,United Nova Chinooks,C,60.00
+13680,Welding Fabricators,I,93023.00
+678345,Soccer Clear Supreme,I,46500023.00
+4789,Medicinal Grow,C,450015.00
+567231,Summer Cabin,R,526.00

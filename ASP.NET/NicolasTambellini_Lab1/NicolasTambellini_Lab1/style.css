@@ -1,0 +1,18 @@
+﻿/* Header Title Styling*/
+h1 {
+    font-family: Calibri;
+    font-size: 4em;
+    color: #FF0000;
+}
+
+/* Error messages Bolded and Red*/
+.warning {
+    color: red;
+    font-weight: 700;
+}
+
+/*Labels for inputs Bolded and Blue*/
+.info {
+    color: blue;
+    font-weight: 700;
+}

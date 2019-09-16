@@ -1,0 +1,6 @@
+C:\Users\ntamb\OneDrive\Desktop\UniversityContactManager\UniversityUsers\bin\Debug\UniversityUsers.dll
+C:\Users\ntamb\OneDrive\Desktop\UniversityContactManager\UniversityUsers\bin\Debug\UniversityUsers.pdb
+C:\Users\ntamb\OneDrive\Desktop\UniversityContactManager\UniversityUsers\obj\Debug\UniversityUsersClassLibrary.csprojAssemblyReference.cache
+C:\Users\ntamb\OneDrive\Desktop\UniversityContactManager\UniversityUsers\obj\Debug\UniversityUsersClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ntamb\OneDrive\Desktop\UniversityContactManager\UniversityUsers\obj\Debug\UniversityUsers.dll
+C:\Users\ntamb\OneDrive\Desktop\UniversityContactManager\UniversityUsers\obj\Debug\UniversityUsers.pdb

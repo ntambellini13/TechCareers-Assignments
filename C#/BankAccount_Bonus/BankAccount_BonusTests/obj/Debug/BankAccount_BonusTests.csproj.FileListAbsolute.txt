@@ -1,0 +1,16 @@
+C:\Users\835266\Desktop\BankAccount_Bonus\BankAccount_BonusTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\835266\Desktop\BankAccount_Bonus\BankAccount_BonusTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\835266\Desktop\BankAccount_Bonus\BankAccount_BonusTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\835266\Desktop\BankAccount_Bonus\BankAccount_BonusTests\bin\Debug\BankAccount_BonusTests.dll
+C:\Users\835266\Desktop\BankAccount_Bonus\BankAccount_BonusTests\bin\Debug\BankAccount_BonusTests.pdb
+C:\Users\835266\Desktop\BankAccount_Bonus\BankAccount_BonusTests\bin\Debug\BankAccount_Bonus.exe
+C:\Users\835266\Desktop\BankAccount_Bonus\BankAccount_BonusTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\835266\Desktop\BankAccount_Bonus\BankAccount_BonusTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\835266\Desktop\BankAccount_Bonus\BankAccount_BonusTests\bin\Debug\BankAccount_Bonus.pdb
+C:\Users\835266\Desktop\BankAccount_Bonus\BankAccount_BonusTests\bin\Debug\BankAccount_Bonus.exe.config
+C:\Users\835266\Desktop\BankAccount_Bonus\BankAccount_BonusTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\835266\Desktop\BankAccount_Bonus\BankAccount_BonusTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\835266\Desktop\BankAccount_Bonus\BankAccount_BonusTests\obj\Debug\BankAccount_BonusTests.csprojResolveAssemblyReference.cache
+C:\Users\835266\Desktop\BankAccount_Bonus\BankAccount_BonusTests\obj\Debug\BankAccount_BonusTests.csproj.CoreCompileInputs.cache
+C:\Users\835266\Desktop\BankAccount_Bonus\BankAccount_BonusTests\obj\Debug\BankAccount_BonusTests.dll
+C:\Users\835266\Desktop\BankAccount_Bonus\BankAccount_BonusTests\obj\Debug\BankAccount_BonusTests.pdb

@@ -1,0 +1,169 @@
+<!--
+Authors: Owiny Ayorech, Nicolas Tambellini
+Date: June. 24, 2019
+Version: 1.2
+Functionality:
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Registration</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel='stylesheet' type="text/css" href='css\reset.css'>
+    <link rel='stylesheet' type="text/css" href='css\style.css'>
+    <script src="https://kit.fontawesome.com/97d02203ff.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Kalam:300,400,700& display=swap" rel="stylesheet">
+    <script src="scripts/script.js"></script>
+</head>
+
+<body class="bg">
+        <div class="container header">
+              <header>
+                  
+                  <!-- Nav -->
+                  <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand" href="index.html">
+                      <img class="main-logo mr-auto" src="images\travel\3d-illustration-land-and-a-group-of-suitcases-to-1412103-640x480-Travel-logo.jpg" width="30" height="30" class="d-inline-block align-top img-responsive" alt="">
+                      <p class="main-title">Travel Experts</p>
+                    </a>                    
+                    <button class="navbar-toggler navbar-toggler-right pull-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                          <a class="nav-link" href="register.html"</a><i class="fas fa-clipboard-check"></i>Register</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="contact.html"</a><i class="fas fa-envelope-open-text"></i>Contact</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+                  
+              </header>
+              
+            </div>
+    
+
+    <!-- Registration Form -->
+    <section class='reg-form'>
+        <form name="RegForm" method="POST" action="http://localhost/bouncer.php">
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <label for="inputFName">First Name</label>
+                <input type="text" class="form-control bg-light" id="inputFName" placeholder="First Name" onfocus="focusFName();" onblur="unFocusFName();"><br/>
+                <p id="fNameHint" style="display: inline; margin-left: 30px; color:red;"></p>
+              </div> 
+              <div class="form-group col-md-4">
+                <label for="inputMName">Middle Name</label>
+                <input type="text" class="form-control bg-light" id="inputMName" placeholder="Middle Name (optional)" onfocus="focusMName();" onblur="unFocusMName();"><br/>
+                <p id="mNameHint" style="display: inline; margin-left: 30px; color:red;"></p>
+              </div>
+
+              <div class="form-group col-md-4">
+                <label for="inputLName">Last Name</label>
+                <input type="text" class="form-control bg-light" id="inputLName" placeholder="Last Name" onfocus="focusLName();" onblur="unFocusLName();"><br/>
+                <p id="lNameHint" style="display: inline; margin-left: 30px; color:red;"></p>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail">Email</label>
+                <input type="email" class="form-control bg-light" id="inputEmail" placeholder="Email" onfocus="focusEmail();" onblur="unFocusEmail();"><br/>
+                <p id="emailHint" style="display: inline; margin-left: 30px; color:red;"></p>
+              </div>
+
+              <div class="form-group col-md-6">
+                <label for="inputPassword">Password</label>
+                <input type="password" class="form-control bg-light" id="inputPassword" placeholder="Password" onfocus="focusPassword();" onblur="unFocusPassword();"><br/>
+                <p id="passwordHint" style="display: inline; margin-left: 30px; color:red;"></p>
+             </div>
+            </div> 
+
+            <div class="form-row">
+              <div class="form-group col-md-3">
+                <label for="inputApartmentNumber">Apartment Number</label>
+                <input type="text" class="form-control bg-light" id="inputApartmentNumber" placeholder="#101" onfocus="focusApartmentNumber();" onblur="unFocusApartmentNumber();"><br/>
+                <p id="apartmentNumberHint" style="display: inline; margin-left: 30px; color:red;"></p>
+              </div>
+
+              <div class="form-group col-md-4">
+                <label for="inputHouseNumber">House Number</label>
+                <input type="text" class="form-control bg-light" id="inputHouseNumber" placeholder="1234" onfocus="focusHouseNumber();" onblur="unFocusHouseNumber();"><br/>
+                <p id="houseNumberHint" style="display: inline; margin-left: 30px; color:red;"></p>
+              </div>
+              
+              <div class="form-group col-md-5">
+                <label for="inputStreetName">Street Name</label>
+                <input type="text" class="form-control bg-light" id="inputStreetName" placeholder="Main" onfocus="focusStreetName();" onblur="unFocusStreetName();"><br/>
+                <p id="streetNameHint" style="display: inline; margin-left: 30px; color:red;"></p>
+              </div>
+
+              <div class="form-group col-md-4">
+                <label for="inputStreetType">Street Type</label>
+                <input type="text" class="form-control bg-light" id="inputStreetType" placeholder="Avenue" onfocus="focusStreetType();" onblur="unFocusStreetType();"><br/>
+                <p id="streetTypeHint" style="display: inline; margin-left: 30px; color:red;"></p>
+              </div>
+
+              <div class="form-group col-md-4">
+                  <label for="inputDirection">Direction</label>
+                  <input type="text" class="form-control bg-light" id="inputDirection" placeholder="NW" onfocus="focusDirection();" onblur="unFocusDirection();"><br/>
+                <p id="directionHint" style="display: inline; margin-left: 30px; color:red;"></p>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control bg-light" id="inputCity" placeholder="Calgary" onfocus="focusCity();" onblur="unFocusCity();"><br/>
+                <p id="cityHint" style="display: inline; margin-left: 30px; color:red;"></p>
+              </div>
+              <div class="form-group col-md-3">
+                <label for="inputPostalCode">Postal Code</label>
+                <input type="text" class="form-control bg-light" id="inputPostalCode" placeholder="T2E 9B5" onfocus="focusPostalCode();" onblur="unFocusPostalCode();"><br/>
+                <p id="postalCodeHint" style="display: inline; margin-left: 30px; color:red;"></p>
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputProvince">Province</label>
+                <select id="inputProvince" class="form-control bg-light" onfocus="focusProvince();" onblur="unFocusProvince();"><br/>
+                  <option selected>Choose...</option>
+                  <option>AB</option>
+                  <option>BC</option>
+                  <option>MB</option>
+                  <option>NB</option>
+                  <option>NL</option>
+                  <option>NS</option>
+                  <option>NT</option>
+                  <option>NU</option>
+                  <option>ON</option>
+                  <option>PE</option>
+                  <option>ON</option>
+                  <option>SK</option>
+                  <option>YK</option>
+                </select>
+                <p id="provinceHint" style="display: inline; margin-left: 30px; color:red;"></p>
+              </div>
+            </div>
+
+          <div class="button-toolbar">
+              <button type="submit" id="submitButton" value="Submit" class="btn btn-primary" onClick="return formSubmitButton();">Submit</button>
+              <button type="reset"  id="resetButton" value="Reset" class="btn btn-danger" onClick="return resetSubmit();">Reset</button>
+          </div>   
+        </form>
+    </section>
+           
+    <!-- Back button and Copyright -->
+    <footer>
+        <p class="copyright">Made by Owiny and Nico <i class="far fa-copyright"></i> 2019</p>
+    </footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
