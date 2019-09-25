@@ -18,6 +18,9 @@
     <table class="table">
         <tr>
             <th>
+                @Html.DisplayNameFor(model => model.ProductID)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Name)
             </th>
             <th>
@@ -39,6 +42,9 @@
         {
             <tr>
                 <td>
+                    @Html.DisplayFor(modelItem => item.ProductID)
+                </td>
+                <td>
                     @Html.DisplayFor(modelItem => item.Name)
                 </td>
                 <td>
@@ -54,7 +60,7 @@
                     @Html.DisplayFor(modelItem => item.OnHand)
                 </td>
                 <td>
-                    @Html.ActionLink("Details", "Details", "Products", new { id = item.ProductID }, null)
+                    @Html.ActionLink("Details", "Details", "Products", new { id = item.ProductID }, new { @class = "btn btn-info" } )
                 </td>
             </tr>
         }

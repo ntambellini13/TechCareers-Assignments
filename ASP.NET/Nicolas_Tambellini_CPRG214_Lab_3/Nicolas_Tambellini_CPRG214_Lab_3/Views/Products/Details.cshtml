@@ -20,6 +20,14 @@
         @* Displays details of a selected product including long description and image *@
         <dl class="dl-horizontal">
             <dt>
+                @Html.DisplayNameFor(model => model.ProductID)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ProductID)
+            </dd>
+
+            <dt>
                 @Html.DisplayNameFor(model => model.Name)
             </dt>
     
